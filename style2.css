@@ -1,0 +1,25 @@
+.header{
+    width:100%;
+    background:rgb(212, 164, 8);
+   height:70px;
+}
+.left-section{
+    width:20%;
+    float: left;
+    background:crimson;
+    height: 400px;
+}
+.right-section{
+    width:80%;
+    float: left;
+    background:rgba(7, 7, 7, 0.92);
+    height: 400px;
+}
+.footer{
+    width: 100%;
+    background:rgba(225, 236, 9, 0.858);
+    height: 100px;
+}
+.content{
+    height: 400px;
+}

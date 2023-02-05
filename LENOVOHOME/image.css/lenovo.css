@@ -1,0 +1,184 @@
+.logo{
+    width:140px;
+    height:40px;
+ }
+ body{
+    margin: 0;
+ }
+ .head2{
+    font-family:"Lato",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin-left:15px;
+    font-size: small;
+   margin-top:10px;
+ }
+ .h1:hover{
+cursor: pointer;
+color:skyblue;
+ }
+ .h2:hover{
+    cursor: pointer;
+    color:skyblue;
+}
+ .h3:hover{
+    cursor: pointer;
+    color:skyblue;
+}
+.h4:hover{
+cursor: pointer;
+color:skyblue;
+ }
+.h5:hover{
+cursor: pointer;
+color:skyblue;
+} 
+.h6:hover{
+    cursor: pointer;
+    color:skyblue;
+}
+.searchbar{
+    padding: 10px;
+    position:absolute;
+    right:15px;
+    top:37px;
+    border: solid 1px;
+    border-color: black;
+    border-radius:5px;
+}  
+.middle{
+   background-image: url("lenovo-ces.jpg");
+   width: 1920px;
+   height:708px;
+   margin-top:10px;
+}   
+.view{
+    background-color: rgb(12, 163, 163);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top:480px;
+    margin-left:45px;
+}   
+.view:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(12, 163, 163);
+}
+.left-section{
+    float: left;
+ width:30%;
+ height:708px;
+}
+.p1{
+    color:#fff;
+    font-size:60px;
+    margin-left:45px;
+    position: absolute;
+    bottom:45px;
+}
+.p2{
+    color: #fff;
+    position: absolute;
+    bottom:25px;
+    margin-left:45px;
+    
+}
+.right-section{
+    float:left;
+    width:70%;
+    height:708px;
+    margin-top:0px;
+}
+.PCs{
+    width:25%;
+    height: 350px;
+    margin-top:0px;
+} 
+
+
+.PCs:hover{
+    cursor: pointer;
+    background-image: url("lenovo-pcs-tablets-hover.webp");
+}
+.Phones{
+    width:25%;
+    height: 350px;
+   
+}
+.Phones:hover{
+    cursor: pointer;
+     
+   background-image:url("lenovo-black-friday.webp");
+}
+.Servers{
+    width:25%;
+    height: 350px;
+
+    position: absolute;
+    left:900px;
+    bottom:162px;
+}
+
+.Servers:hover{
+    cursor: pointer;
+    background-image: url("lenovo-smart-devices.webp");
+
+}
+
+.ph{
+    color: #fff;
+    position: absolute;
+    bottom:145px;
+    left:800px;
+}
+.ph2{
+    color: #fff;
+    position: absolute;
+    bottom:150px;
+    left:870px;
+}
+.mob{
+    color: #fff;
+    position: absolute;
+    bottom:40px;
+    left:800px;
+    word-spacing:21px;
+}
+.smartf1{
+    color: #ffffff;
+    position: absolute;
+    bottom:150px;
+    left:970px;
+    float: left;
+}
+.fplus{
+    color: #ffffff;
+    position: absolute;
+    bottom:160px;
+    left:1030px;
+}
+.foot{
+    width:100%;
+    background-color: rgb(116, 126, 126);
+    height:200px;
+}
+.fotfo{
+     position: absolute;
+     top:940px;
+     text-decoration: underline;
+     font-size: small;
+}
+.fotfo:hover{
+    cursor: pointer;
+color: aqua;
+}
+.smart-devices{
+    width:25%;
+    height: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    left:900px;
+    bottom:162px;
+}
