@@ -1,0 +1,840 @@
+.header{
+    width:100%;
+    height:60px;
+    background-color: black;
+}
+body{
+    margin: 0%;
+}
+.icon{
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 50px;
+    position: absolute;
+  font-size:22px;
+  cursor: pointer;
+    
+}
+.select select{
+    position: absolute;
+    left: 130px;
+    top: 15px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 110px;
+    color: #fff;
+}
+.nav{
+    color: #fff;
+    position: absolute;
+    left: 250px;
+    top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.navb{
+    color: #fff;
+    position: absolute;
+    left: 330px;
+    top: 15px;
+    cursor: pointer;
+    padding: 10PX;
+    font-family: sans-serif;
+}
+select:hover{
+    border-radius: 30px;
+    background-color: rgb(95, 93, 93);
+    }
+.nav:hover{
+    border-radius: 30px;
+    width: 50px;
+    background-color: rgb(95, 93, 93);
+    text-align: center;
+  
+        }
+.navb:hover{
+    border-radius: 30px;
+    background-color: rgb(95, 93, 93);
+    text-align: center;    
+   
+}
+.sign{
+    color:black;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+
+}
+.sign:hover{
+
+    background-color: rgb(244, 240, 240);
+}
+.log{
+    color: #fff;
+    position: absolute;
+    right: 130px;
+    top: 15px;
+    cursor: pointer;
+    padding: 10PX;
+    font-family:sans-serif 
+}
+.log:hover{
+    background-color: rgb(94, 92, 92);
+    border-radius: 30px;
+}
+.prod{
+    color: #fff;
+    position: absolute;
+    right: 190px;
+    top: 15px;
+    cursor: pointer;
+    padding: 10PX;
+    font-family:sans-serif;
+    
+}
+.prod:hover,.en:hover,.engimage:hover{
+    background-color: rgb(94, 92, 92);
+    border-radius: 30px;
+}
+.en{
+    color: #fff;
+    position: absolute;
+    right: 290px;
+    top: 15px;
+    cursor: pointer;
+    padding: 10PX;
+    font-family:sans-serif;
+}
+.image1{
+    color: #fff;
+     position: absolute;
+    top: 10px;
+    right: 80px;
+}
+.engimage{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+
+}
+.image2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.section2{
+    width: 400px;
+    height:400px ;
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+.ride{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:15px;
+    left: 60px;
+}
+.fr:target{
+    text-decoration:underline;
+    
+}
+.fr{
+    position: absolute;
+    top:25px;
+    left: -7px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.del{
+    position: absolute;
+    right: 70px;
+    top: 18px;
+}
+.or{
+    position: absolute;
+    right: 65px;
+    top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.Request{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-family: sans-serif;
+}
+.pickup{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: rgb(234, 230, 230);
+    
+    
+}
+.destination{
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: rgb(234, 230, 230);
+}
+.now{
+    background-color: black;
+    color:#fff;
+    border-radius: 6px;
+    padding: 7px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    cursor: pointer;
+}
+.later{
+    background-color: rgb(210, 210, 210);
+    color:#000000;
+    border-radius: 6px;
+    padding: 9px;
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    border: none;
+    cursor: pointer;
+}
+.img3{
+    width: 100%;
+    height:200px ;
+}
+.bus{
+    position: absolute;
+    bottom: -53px;
+    left: 40px;
+    font-family: sans-serif;
+}
+.trans{
+    position: absolute;
+    bottom: -80px;
+    left: 40px;
+    font-family: sans-serif; 
+    font-weight: lighter;
+}
+.how{
+    background-color: black;
+    color:#fff;
+    border-radius: 6px;
+    padding: 15px;
+    position: absolute;
+    bottom: -120px;
+    left: 45px;
+    cursor: pointer;
+}
+.with{
+    font-family: sans-serif;
+    position: absolute;
+    left: 40px;
+    width: 100%;
+}
+.auto{
+  height: 120px;
+  width: 120px;
+  position:absolute;
+  left: 50px;
+  margin-top: 100px;
+
+}
+.uauto{
+    position:absolute;
+  left: 190px;
+  margin-top: 110px;
+  font-family: sans-serif;
+}
+.rental{
+    height: 140px;
+    width: 140px;
+    position:absolute;
+    left: 50px;
+    margin-top: 208px;
+}
+.urent{
+    position:absolute;
+    left: 200px;
+    margin-top: 220px;
+    font-family: sans-serif;
+}
+.bike{
+    height: 120px;
+    width: 120px;
+    position:absolute;
+    right: 440px;
+    margin-top: 40px;
+}
+.umoto{
+    position:absolute;
+    right: 284px;
+    margin-top: 50px;
+    font-family: sans-serif
+}
+.ucar{
+    height: 140px;
+    width: 140px;
+    position:absolute;
+    right: 416px;
+    margin-top: 203px;
+}
+.car{
+    position:absolute;
+    right: 247px;
+    margin-top: 217px;
+    font-family: sans-serif
+}
+.autop{
+    position:absolute;
+    left: 190px;
+    margin-top: 150px;
+    font-family: sans-serif;
+}
+.rentp{
+    position:absolute;
+    left: 200px;
+    margin-top: 266px;
+    font-family: sans-serif;
+
+}
+.motop{
+    position:absolute;
+    right: 110px;
+    margin-top: 88px;
+    font-family: sans-serif; 
+}
+.carp{
+    position:absolute;
+    right: 163px;
+    margin-top: 266px;
+    font-family: sans-serif; 
+}
+.autoarrow{
+    position:absolute;
+    left: 496px;
+    margin-top: 150px;
+    width: 30px;
+    height: 30px;
+}
+.autoarrow:hover{
+   transform: translate();
+
+}
+.bikearrow{
+    position:absolute;
+    right: 50px;
+    margin-top: 102px;
+    width: 30px;
+    height: 30px;
+}
+.rentarrow{
+    position:absolute;
+    left: 500px;
+    margin-top: 260px;
+    width: 30px;
+    height: 30px;
+}
+.cararrow{
+    position:absolute;
+    right: 50px;
+    margin-top: 280px;
+    width: 30px;
+    height: 30px;
+}
+.section5{
+    width: 100%;
+    height: 1400px;
+}
+.focus{
+    position: absolute;
+    top: 1260px;
+    left: 65px;
+    font-family: sans-serif;
+}
+.safe{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 1350px;
+    left: 65px;
+}
+.city{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 1350px;
+    right: 65px; 
+}
+.commit{
+    position: absolute;
+    top: 1650px;
+    left: 65px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight:600px;
+}
+.safep{
+    position: absolute;
+    top: 1690px;
+    left: 65px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight: lighter;
+}
+.set{
+    position:absolute;
+    top: 1650px;
+    right: 320px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight:600px;
+}
+.setp{
+    position:absolute;
+    top: 1690px;
+    right: 34px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+}
+.guide{
+    position: absolute;
+    top: 1790px;
+    left: 65px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight: lighter;
+}
+.feature{
+    position:absolute;
+    top: 1790px;
+    left: 383px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight: lighter;
+}
+.view{
+    position:absolute;
+    top: 1754px;
+    right: 383px;
+    font-family: sans-serif;
+    color: rgb(86, 84, 84);
+    font-weight: lighter;
+}
+.view:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.feature:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.guide:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.about{
+    position: absolute;
+    top: 1900px;
+    left: 70px;
+    }
+.news{
+    position: absolute;
+    top: 1900px;
+    left: 410px;
+}
+.globe{
+    position: absolute;
+    top: 1900px;
+    right: 365px;
+}
+.aboutp{
+    position: absolute;
+    top: 1900px;
+    left: 70px; 
+    font-family: sans-serif;  
+    font-size: large;
+    color: rgb(86, 84, 84);
+}
+.newsp{
+    font-family: sans-serif;  
+    font-size: large;
+    color: rgb(86, 84, 84);
+    position: absolute;
+    top: 1900px;
+    left: 410px
+}
+.globep{
+    position: absolute;
+    top: 1900px;
+    right: 235px;
+    font-family: sans-serif;  
+    font-size: large;
+    color: rgb(86, 84, 84);
+}
+.abp{
+    position: absolute;
+    top: 1988px;
+    left: 70px; 
+    font-family: sans-serif;  
+    font-size: small;
+    color: rgb(86, 84, 84);
+}
+.newp{
+    font-family: sans-serif;  
+    font-size: small;
+    color: rgb(86, 84, 84);
+    position: absolute;
+    top: 1988px;
+    left: 410px
+}.glop{
+    position: absolute;
+    top: 1988px;
+    right: 156px;
+    font-family: sans-serif;  
+    font-size: small;
+    color: rgb(86, 84, 84);
+}
+.learn{
+    position: absolute;
+    top: 2050px;
+    left: 70px; 
+    font-family: sans-serif;  
+  
+    color: rgb(86, 84, 84);
+}
+.goto{
+   font-family: sans-serif;  
+    color: rgb(86, 84, 84);
+    position: absolute;
+    top: 2050px;
+    left: 410px
+}
+.part{
+    position: absolute;
+    top: 2050px;
+    right: 250px;
+    font-family: sans-serif;  
+   color: rgb(86, 84, 84); 
+}
+.learn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.goto:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.part:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.section7{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(227, 223, 223);  
+}
+.app{
+    font-family: sans-serif;
+    position: absolute;
+    left: 70px;
+    margin-top: 50px;
+}
+.box1{
+    width: 450px;
+    height: 171px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 113px;
+    left: 72px;
+    
+}
+.box2{
+    width: 450px;
+    height: 171px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 113px;
+    right: 72px;
+  }
+  .driver{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: 143px;
+    left: 82px;
+  }
+  .ride2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top:143px;
+    right: 387px;
+  }
+  .drivep{
+    position: absolute;
+    margin-top: 194px;
+    left: 210px;
+    font-family: sans-serif;
+    font-size:20px;
+  }
+  .ridep{
+    position: absolute;
+    margin-top:196px;
+    right: 155px;
+    font-family: sans-serif;
+    font-size:20px;
+  }
+  .section8{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+  }
+  .drivesi{
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 100px;
+    left: 40px;
+}
+  .ridesi{
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 100px;
+    right: 230px;
+ }
+  .drivear{
+    position: absolute;
+    margin-top: 95px;
+    left: 390px;
+  }
+  .ridear{
+    position: absolute;
+    margin-top: 95px;
+    right: 70px;
+  }
+  .footer{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+  .ubfoot{
+    position: absolute;
+    margin-top: 60px;
+    left: 50px;
+    font-family: sans-serif;
+    font-size: x-large;
+  }
+  .foothelp{
+    position: absolute;
+    margin-top: 120px;
+    left: 50px;
+    font-family: sans-serif;
+ }
+ .complist{
+    list-style: none;
+    position: absolute;
+    margin-top: 230px;
+    left: 20px;
+    font-family: sans-serif;
+    line-height: 40px;
+ }
+ .complist li:hover,.productlist li:hover,.citilist li:hover,.travelist li:hover{
+    cursor: pointer;
+    color: rgb(138, 138, 138);
+}
+ .company{
+    font-family: sans-serif;
+    position: absolute;
+    left: 60px;
+    margin-top: 190px;
+ }
+ .product{
+    font-family: sans-serif;
+    position: absolute;
+    left: 310px;
+    margin-top: 190px;
+ }
+ .productlist{
+    list-style: none;
+    position: absolute;
+    margin-top: 230px;
+    left: 270px;
+    font-family: sans-serif;
+    line-height: 40px;
+ }
+ .citizens{
+    font-family: sans-serif;
+    position: absolute;
+    left: 610px;
+    margin-top: 190px;
+}
+.citilist{
+    list-style: none;
+    position: absolute;
+    margin-top: 230px;
+    left: 570px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.travel{
+    font-family: sans-serif;
+    position: absolute;
+    right: 262px;
+    margin-top: 185px;
+}
+.travelist{
+    list-style: none;
+    position: absolute;
+    margin-top: 230px;
+    right: 260px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.icons{
+    position: absolute;
+    color: #fff;
+    margin-top: 500px;
+    display:inline;
+    list-style: none;
+   
+   word-spacing: 10x;
+}
+.socialmedia{
+     display: inline;
+}
+
+.icon1{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+   margin-top: 100px;
+   left: 50px;
+    
+}
+.icon2{
+    width: 20px;
+    height: 20px;  
+    position: absolute;
+    margin-top: 100px;
+    left: 150px;
+}
+.icon3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 100px;
+    left: 250px;
+}
+.icon4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 100px;
+    left: 350px;
+}
+.icon5{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 100px;
+    left: 450px;
+}
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover,.icon5:hover,.eng:hover,.globe2:hover{
+   padding: 5px;
+    background-color: rgb(116, 118, 118);
+    border-radius: 2px;
+}
+.globe2{
+    position: absolute;
+    margin-top: 600px;
+    right: 420px;
+}
+.eng{
+    position: absolute;
+    margin-top: 605px;
+    right: 350px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.loc{
+    position: absolute;
+    margin-top: 600px;
+    right: 300px;
+}
+.san{
+    position: absolute;
+    margin-top: 605px;
+    right: 150px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.appand{
+    position: absolute;
+    margin-top: 630px;
+    left: 50px;
+}
+.appap{
+    position: absolute;
+    margin-top: 630px;
+    left: 150px;
+}
+.footlist li:hover{
+    cursor: pointer;
+    color:rgb(116, 118, 118) ;
+}
+.li1{
+    list-style: none;
+    font-family: sans-serif;
+    display: inline;
+    position: absolute;
+    margin-top: 700px;
+    right: 300px;
+    color: #585757;
+}
+.li2{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 700px;
+    right: 200px;
+    color: #585757;
+}
+.li3{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 700px;
+    right: 150px;
+    color: #585757;
+}
+.credit{
+    position: absolute;
+    margin-top: 700px;
+    left: 60px;
+    color: #585757;  
+}
