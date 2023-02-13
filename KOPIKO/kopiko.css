@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    color:  rgb(174, 173, 173);
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: black;
+    width: 100%;
+    height: 1500px;
+}
+body{
+    margin: 0px;
+}
+.header{
+    color: rgb(174, 173, 173);
+    letter-spacing: 5px;
+    text-align: center;
+   padding-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+.header:hover,.nav li:hover{
+    color: brown;
+    cursor: pointer;
+}
+.head2{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.line{
+    height: 0.5px;
+    background-color: rgb(174, 173, 173);
+    width: 75%;
+   position: absolute;
+   left: 109px;
+}
+.nav li{
+    display: inline;
+    list-style: none;
+    color: #fff;
+    margin: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.candy{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+}
+.img1{
+width: 425px;
+height: 251px;
+margin-left: 160px;
+}
+.img2{
+    width: 425px;
+    height: 251px;  
+    float: right;
+    margin-right: 160px;
+}
+.head3{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: #fff;
+}
+.p1,.p2{
+    margin:0px 50px 30px 50px;
+}
+.site{
+    color: brown;
+}
+.site:hover{
+    color: rgb(174, 173, 173) ;
+}
+.kopimage{
+    width: 200px;
+    height: 200px;
+display:inline-flex;
+margin-left: 105px;
+}
+.p3,.p4,.p5{
+    margin:70px 50px 10px 50px;
+    font-size: larger;
+}
+.foot{
+    text-align: center;
+    margin-top: 170px;
+}
+.usa,.wen{
+    color: #fff;
+}
+.usa:hover,.wen:hover{
+    color: brown;
+    
+}
+
+
